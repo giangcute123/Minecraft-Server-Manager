@@ -1,0 +1,20 @@
+========================================
+Minecraft Server Manager - Server Log
+========================================
+
+[2026-07-11 15:30:12] Starting Minecraft Server...
+[2026-07-11 15:30:13] Java Version: OpenJDK 21
+[2026-07-11 15:30:14] Loading paper-1.21.4.jar...
+[2026-07-11 15:30:20] Preparing spawn area...
+[2026-07-11 15:30:25] Server started successfully.
+[2026-07-11 15:30:25] Listening on port 25565.
+
+[2026-07-11 15:35:42] Player joined: Steve
+[2026-07-11 15:36:18] Player joined: Alex
+[2026-07-11 15:40:03] Player left: Steve
+
+[2026-07-11 16:00:00] Automatic backup completed.
+
+[2026-07-11 17:15:33] Server stopping...
+[2026-07-11 17:15:35] Saving worlds...
+[2026-07-11 17:15:37] Server stopped.
