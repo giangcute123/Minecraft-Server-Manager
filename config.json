@@ -1,0 +1,79 @@
+{
+  "project": {
+    "name": "Minecraft Server Manager",
+    "version": "1.0.0",
+    "author": "YourName"
+  },
+
+  "java": {
+    "version": "21",
+    "xms": "1G",
+    "xmx": "4G"
+  },
+
+  "server": {
+    "name": "Survival",
+    "software": "paper",
+    "minecraft_version": "1.21.4",
+    "jar": "paper.jar",
+    "path": "./servers/Survival",
+    "port": 25565,
+    "online_mode": false,
+    "auto_restart": true,
+    "restart_delay": 5
+  },
+
+  "backup": {
+    "enabled": true,
+    "path": "./backups",
+    "keep": 10,
+    "compress": true
+  },
+
+  "plugins": {
+    "auto_install": true,
+    "list": [
+      "EssentialsX",
+      "LuckPerms",
+      "Vault",
+      "PlaceholderAPI",
+      "ViaVersion",
+      "ViaBackwards",
+      "WorldEdit",
+      "CoreProtect"
+    ]
+  },
+
+  "geyser": {
+    "enabled": false,
+    "port": 19132
+  },
+
+  "floodgate": {
+    "enabled": false
+  },
+
+  "firewall": {
+    "enabled": false,
+    "allow_ports": [
+      25565,
+      19132
+    ]
+  },
+
+  "webpanel": {
+    "enabled": false,
+    "host": "0.0.0.0",
+    "port": 8080
+  },
+
+  "discord": {
+    "enabled": false,
+    "webhook": ""
+  },
+
+  "logs": {
+    "path": "./logs",
+    "max_size_mb": 100
+  }
+}
