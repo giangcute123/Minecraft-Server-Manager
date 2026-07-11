@@ -1,0 +1,21 @@
+========================================
+Minecraft Server Manager - Error Log
+========================================
+
+[2026-07-11 18:20:15] ERROR: Java is not installed.
+
+[2026-07-11 18:21:02] ERROR: Cannot find server jar:
+servers/Survival/paper.jar
+
+[2026-07-11 18:22:44] ERROR: Failed to start Minecraft server.
+
+[2026-07-11 18:25:30] ERROR: Backup failed.
+Reason: Permission denied.
+
+[2026-07-11 18:27:19] ERROR: Plugin download failed.
+Plugin: LuckPerms
+
+[2026-07-11 18:30:07] ERROR: Web Panel failed to start.
+Port 8080 is already in use.
+
+[2026-07-11 18:33:54] ERROR: Firewall configuration failed.
